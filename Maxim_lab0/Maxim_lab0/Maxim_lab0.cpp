@@ -6,8 +6,12 @@ using namespace std;
 int main()
 {
 	int a;
-    cout << "Hello World!\n";
 	cin >> a;
+	if (a == 0)
+	{
+		cout << "Hello World!\n";
+	}
+	
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
